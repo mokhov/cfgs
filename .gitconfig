@@ -1,0 +1,18 @@
+[user]
+    name = Oleg Mokhov
+    email = mokhov@yandex-team.ru
+[alias]
+    co = checkout
+    st = status
+    di = diff
+    br = branch
+    ci = commit
+    g = log --graph --decorate --pretty=oneline --abbrev-commit --branches=* --all
+    lg = log -p
+    lol = log --graph --decorate --pretty=oneline --abbrev-commit
+[color]
+    ui = auto
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
