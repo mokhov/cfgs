@@ -1,0 +1,37 @@
+snippet prolog
+	<?xml version="1.0" encoding="utf-8"?>
+snippet <
+	<${1:}>
+		${2}
+	</$1>
+snippet lego
+	<lego:${1:}>${2}</lego:$1>
+snippet head
+	<?xml version="1.0" encoding="utf-8"?>
+
+	<xsl:stylesheet version="1.0"
+		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+		xmlns:x="http://www.yandex.ru/xscript"
+		xmlns:lego="https://lego.yandex-team.ru"
+		exclude-result-prefixes=" x lego "
+		>
+
+		${1}
+
+	</xsl:stylesheet>
+snippet tm
+	<xsl:template match = "${1}">
+		${2}
+	</xsl:template>
+snippet tmm
+	<xsl:template match = "${1}" mode = "${2}">
+		${3}
+	</xsl:template>
+snippet at
+	<xsl:apply-templates />
+snippet ats
+	<xsl:apply-templates select="${1}" />${2}
+snippet atsm
+	<xsl:apply-templates select="${1}" mode="${2}" />${3}
+snippet l
+	lego:${1}

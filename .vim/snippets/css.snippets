@@ -1,0 +1,321 @@
+snippet \
+	/* ${1:comment} (begin) */ /**/
+	
+		${2}
+
+	/* $1 (end) */ /**/
+snippet .
+	.${1:className}
+	{
+		${2}
+	}
+snippet /
+	/* ${1:comment} */ /**/${2}
+snippet !
+	!important;${1}
+snippet @
+	@import url(${1:path});${2}
+snippet d
+	border: 1px solid red !important;${1}
+# -->
+snippet f
+	font: ${1:value};${2}
+snippet fa
+	font: 100% Arial, sans-serif;${1}
+snippet fv
+	font: 80% Verdana, sans-serif;${1}
+snippet ff
+	font-family: ${1:value};
+snippet ffa
+	font-family: Arial, sans-serif;${1}
+snippet fs
+	font-size: ${1:size};
+snippet fwb
+	font-weight: bold;${1}
+snippet fwn
+	font-weight: normal;${1}
+snippet fsi
+	font-style: italic;${1}
+snippet fsn
+	font-style: normal;${1}
+snippet fvn
+	font-variant: normal;${1}
+snippet fvs
+	font-variant: small-caps;${1}
+# -->
+snippet poa
+	position: absolute;${1}
+snippet pof
+	position: fixed;${1}
+snippet por
+	position: relative;${1}
+snippet pos
+	position: static;${1}
+snippet z
+	z-index: ${1:value};
+snippet t
+	top: ${1:value};
+snippet r
+	right: ${1:value};
+snippet bo
+	bottom: ${1:value};
+snippet l
+	left: ${1:value};
+# -->
+snippet db
+	display: block;${1}
+snippet di
+	display: inline;${1}
+snippet dn
+	display: none;${1}
+snippet dib
+	display: -moz-inline-block; 
+	display: inline-block;${1}
+snippet dt
+	display: table;${1}
+snippet dtc
+	display: table-cell;${1}
+snippet dtr
+	display: table-row;${1}
+snippet dli
+	display: list-item;${1}
+snippet dit
+	display: inline-table;${1}
+snippet vh
+	visibility: hidden;${1}
+snippet vv
+	visibility: visible;${1}
+snippet fl
+	float: left;${1}
+snippet fr
+	float: right;${1}
+snippet fn
+	float: none;${1}
+snippet cl
+	clear: left;${1}
+snippet cr
+	clear: right;${1}
+snippet cn
+	clear: none;${1}
+snippet oa
+	overflow: auto;${1}
+snippet oh
+	overflow: hidden;${1}
+snippet oi
+	overflow: inherit;${1}
+snippet os
+	overflow: scroll;${1}
+snippet ov
+	overflow: visible;${1}
+snippet z1
+	zoom: 1;${1}
+# -->
+snippet bsb
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;${1}
+snippet bsc
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;${1}
+snippet w
+	width: ${1:value};${2}
+snippet w1
+	width: 100%;${1}
+snippet wa
+	width: auto;${1}
+snippet miw
+	min-width: ${1:value};${2}
+snippet maw
+	max-width: ${1:value};${2}
+snippet h
+	height: ${1:value};${2}
+snippet h1
+	height: 100%;${1}
+snippet mih
+	min-height: ${1:value};${2}
+snippet mah
+	max-height: ${1:value};${2}
+snippet m
+	margin: ${1:value};${2}
+snippet mt
+	margin-top: ${1:value};${2}
+snippet mr
+	margin-right: ${1:value};${2}
+snippet mb
+	margin-bottom: ${1:value};${2}
+snippet ml
+	margin-left: ${1:value};${2}
+snippet p
+	padding: ${1:value};${2}
+snippet pt
+	padding-top: ${1:value};${2}
+snippet pr
+	padding-right: ${1:value};${2}
+snippet pb
+	padding-bottom: ${1:value};${2}
+snippet pl
+	padding-left: ${1:value};${2}
+# -->
+snippet tlf 
+	table-layout: fixed;${1}
+snippet tla 
+	table-layout: auto;${1}
+snippet ecs 
+	empty-cells: show;${1}
+snippet ech 
+	empty-cells: hide;${1}
+snippet bos 
+	border-spacing: 0;${1}
+snippet bcc 
+	border-collapse: collapse;${1}
+snippet bcs 
+	border-collapse: separate;${1}
+snippet ls
+	list-style: ${1:value};${2}
+snippet lsn
+	list-style: none;${1}
+# -->
+snippet co  
+	content: ${1:value};${2}
+snippet cor 
+	counter-reset: ${1:value};${2}
+snippet coi 
+	counter-increment: ${1:value};${2}
+snippet cu  
+	cursor: ${1:value};${2}
+snippet cuh 
+	cursor: hand;${1}
+snippet cup 
+	cursor: pointer;${1}
+snippet cut 
+	cursor: text;${1}
+snippet tal 
+	text-align: left;${1}
+snippet tar 
+	text-align: right;${1}
+snippet tac 
+	text-align: center;${1}
+snippet taj 
+	text-align: justify;${1}
+snippet vat 
+	vertical-align: top;${1}
+snippet vab 
+	vertical-align: bottom;${1}
+snippet vam 
+	vertical-align: middle;${1}
+snippet lh  
+	line-height: ${1:value};${2}
+snippet ws  
+	white-space: ${1:value};${2}
+snippet wsn 
+	white-space: nowrap;${1}
+snippet wsp 
+	white-space: pre;${1}
+snippet td  
+	text-decoration: ${1:value};${2}
+snippet tdn 
+	text-decoration: none;${1}
+snippet tdu 
+	text-decoration: underline;${1}
+snippet ti  
+	text-indent: ${1:value};${2}
+snippet ttn 
+	text-transform: none;${1}
+snippet ttu 
+	text-transform: uppercase;${1}
+snippet ttl 
+	text-transform: lowercase;${1}
+snippet ttc 
+	text-transform: capitalize;${1}
+snippet les 
+	letter-spacing: ${1:value};${2}
+snippet wos
+	word-spacing: ${1:value};${2}
+# -->
+snippet op
+	opacity: ${1:value};${2}
+snippet fo
+	filter: alpha(opacity=${1:value});${2}
+snippet c
+	color: ${1:value};${2}
+snippet b
+	border: 1px solid ${1:value};${2}
+snippet bc
+	border-color: ${1:value};${2}
+snippet bs
+	border-style: ${1:value};${2}
+snippet bw
+	border-width: ${1:value};${2}
+snippet bt
+	border-top: 1px solid ${1:value};${2}
+snippet btc
+	border-top-color: ${1:value};${2}
+snippet bts
+	border-top-style: ${1:value};${2}
+snippet btw
+	border-top-width: ${1:value};${2}
+snippet br
+	border-right: 1px solid ${1:value};${2}
+snippet brc
+	border-right-color: ${1:value};${2}
+snippet brs
+	border-right-style: ${1:value};${2}
+snippet brw
+	border-right-width: ${1:value};${2}
+snippet bb
+	border-bottom: 1px solid ${1:value};${2}
+snippet bbc
+	border-bottom-color: ${1:value};${2}
+snippet bbs
+	border-bottom-style: ${1:value};${2}
+snippet bbw
+	border-bottom-width:${1:value};${2}
+snippet bl
+	border-left: 1px solid ${1:value};${2}
+snippet blc
+	border-left-color: ${1:value};${2}
+snippet bls
+	border-left-style: ${1:value};${2}
+snippet blw
+	border-left-width: ${1:value};${2}
+snippet o
+	outline: 1px solid ${1:value};${2}
+snippet on
+	outline: none;${1}
+snippet ba
+	background: ${1:value};${2}
+snippet ban
+	background: none;;${1}
+snippet bau
+	background: ${1:color} url(${2:path}) ${3:other};${4}
+snippet bac
+	background-color: ${1:value};${2}
+snippet bact
+	background-color: transparent;${1}
+snippet bai
+	background-image: url(${1:value});${2}
+snippet bain
+	background-image: none;${1}
+snippet bap
+	background-position: ${1:value};${2}
+snippet barn
+	background-repeat: none;${1}
+snippet barr
+	background-repeat: repeat;${1}
+snippet barx
+	background-repeat: repeat-x;${1}
+snippet bary
+	background-repeat: repeat-y;${1}
+snippet baaf
+	background-attachment: fixed;${1}
+snippet baas
+	background-attachment: scroll;${1}
+snippet fi
+	filter: filter:progid:DXImageTransform.Microsoft.AlphaImageLoader (src=${1:path});${2}
+snippet fic
+	filter: filter:progid:DXImageTransform.Microsoft.AlphaImageLoader (src=${1:path},method=crop);${2}
+snippet fis
+	filter: filter:progid:DXImageTransform.Microsoft.AlphaImageLoader (src=${1:path},method=scale);${2}
+snippet ts
+	text-shadow: ${1:value};${2}
