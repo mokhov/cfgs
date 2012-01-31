@@ -1,6 +1,10 @@
-syntax on
-
+"Solarized
 set t_Co=16
-set background=light
+if has("gui_running")
+    set t_Co=256
+        let g:solarized_termcolors=256
+        endif
 
-colorscheme Tomorrow-Night
+        syntax enable
+        set background=dark
+        colorscheme solarized

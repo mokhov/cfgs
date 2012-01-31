@@ -107,3 +107,13 @@ let g:Powerline_cache_file=$HOME . "/.vim/Powerline.cache"
 
 " Don't use the terminal's horrible secondary screen
 " set t_ti= t_te=
+"
+set cursorline
+
+" Don't copy text, replaced by pasted
+vmap p "_dp
+vmap P "_dP
+
+
+let delimitMate_expand_cr = 1
+"set backspace=indent,eol,start
