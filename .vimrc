@@ -1,6 +1,7 @@
 " File: .vimrc
-" Author: Georgiy Mostolovitsa (gfranco)
-" Last Modified: 02.04.2011
+" Author: Oleg Mokhov (mokhov)
+" Thanks2: Georgiy Mostolovitsa (gfranco), Igor Spisivtsev (garris), Vyacheslav Oliyanchuk (miripiruni)
+" Last Modified: 31.01.2012
 
 
 " Common
@@ -73,7 +74,7 @@ filetype plugin indent on
 " Plugins
 let g:indent_guides_guide_size=1
 
-let g:tagbar_ctags_bin="/Users/gfranco/.local/bin/ctags"
+" let g:tagbar_ctags_bin="/Users/gfranco/.local/bin/ctags"
 
 au BufNewFile,BufRead *.bemhtml set filetype=javascript
 au BufNewFile,BufRead *.scss set filetype=css
