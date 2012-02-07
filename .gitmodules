@@ -1,3 +1,6 @@
 [submodule ".vim/bundle/vundle"]
 	path = .vim/bundle/vundle
 	url = git://github.com/gmarik/vundle.git
+[submodule ".vim/snippets/css3"]
+	path = .vim/snippets/css3
+	url = git@github.com:mokhov/css-3.snippets.git
