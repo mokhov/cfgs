@@ -119,6 +119,11 @@ vmap P "_dP
 let delimitMate_expand_cr = 1
 set backspace=indent,eol,start
 
+map <C-l> <C-w>l
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+
 map —ë `
 map –π q
 map —Ü w
