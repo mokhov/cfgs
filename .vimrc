@@ -41,7 +41,7 @@ set splitright
 set splitbelow
 
 " UI
-set number
+set relativenumber
 set foldcolumn=0
 set showtabline=0
 
