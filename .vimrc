@@ -253,3 +253,5 @@ map Б <
 map Ю >
 
 
+
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*
