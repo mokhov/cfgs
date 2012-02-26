@@ -1,9 +1,3 @@
 [submodule ".vim/bundle/vundle"]
 	path = .vim/bundle/vundle
 	url = git://github.com/gmarik/vundle.git
-[submodule ".vim/snippets/css3"]
-	path = .vim/snippets/css3
-	url = git://github.com/mokhov/css-3.snippets.git
-[submodule ".vim/snippets/bem"]
-	path = .vim/snippets/bem
-	url = git://github.com/mokhov/javascript-bem.snippets.git

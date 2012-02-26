@@ -9,8 +9,8 @@ set nocompatible
 set autoread
 
 set backup
-set backupdir=~/tmp
-set directory=~/tmp
+set backupdir=/tmp
+set directory=/tmp
 
 
 " Editor

@@ -75,3 +75,7 @@ Bundle 'viewdoc'
 
 " Sources:
 "   http://mirnazim.org/writings/vim-plugins-i-use/
+
+" My own snippets
+Bundle 'mokhov/javascript-bem.snippets'
+Bundle 'mokhov/css-3.snippets'

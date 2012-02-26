@@ -3,8 +3,8 @@ init:
 	git submodule update
 
 symlinks:
-	ln -nfs css3/css-3.snippets .vim/snippets/css-3.snippets
-	ln -nfs bem/javascript-bem.snippets .vim/snippets/javascript-bem.snippets
+	ln -nfs ../bundle/css-3.snippets/css-3.snippets .vim/snippets/css-3.snippets
+	ln -nfs ../bundle/javascript-bem.snippets/javascript-bem.snippets .vim/snippets/javascript-bem.snippets
 	pwd | xargs -i bash -c "ln -nfs {}/.vim ~/.vim"
 	pwd | xargs -i bash -c "ln -nfs {}/.vimrc ~/.vimrc"
 
