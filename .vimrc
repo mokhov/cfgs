@@ -51,7 +51,7 @@ set statusline=%t%M%R\ %P
 set scrolljump=7
 
 set novisualbell        " выключаем бибиканье и мигание
-set t_vb=   
+set t_vb=
 set wildmenu
 
 
@@ -123,6 +123,8 @@ map <C-l> <C-w>l
 map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
+
+map <C-a> :%s/\s\+$//g<CR>
 
 map —ë `
 map –π q
