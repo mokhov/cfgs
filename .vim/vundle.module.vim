@@ -40,7 +40,9 @@ Bundle 'kien/ctrlp.vim'
 
 " This plug-in provides automatic closing of quotes, parenthesis, brackets, etc.
 "   Homepage: https://github.com/Raimondi/delimitMate
-Bundle 'Raimondi/delimitMate'
+"Bundle 'Raimondi/delimitMate'
+"
+Bundle 'Townk/vim-autoclose.git'
 
 " Intelligently closes the html tags based of the currently open tag
 "   Usage: it is triggered when you type "</"
